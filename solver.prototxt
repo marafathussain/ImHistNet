@@ -1,4 +1,4 @@
-net: "models/MICCAI19/train_val4.prototxt"
+net: "models/MICCAI19/train_val.prototxt"
 test_initialization: false
 #type: "Adam"
 type: "SGD" 
