@@ -11,9 +11,13 @@ LMDB data format is used in this work. To generate this, there should different 
    image_000003.jpg 1
    .......
 ```
-To generate the LMDB files, the following command should be used:
+To generate the LMDB files, the following command should be used. You should change the paths inside this file according to yours.
 
 ```
 source create_lmdb.sh
 ```
-You should change the paths inside this file according to yours.
+
+Once the lmdb files are created, the following command will generate the mean file. 
+```
+source make_meanfile.sh
+```
