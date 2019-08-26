@@ -11,10 +11,10 @@ layer {
   transform_param {
     mirror: false
     crop_size: 64
-    mean_file: "/data/caffe/data/MICCAI19_Data2/MICCAI19_mean_slice.binaryproto"
+    mean_file: "/data/caffe/data/MICCAI19_Data/MICCAI19_mean_slice.binaryproto"
   }
   data_param {
-    source: "/data/caffe/data/MICCAI19_Data2/MICCAI19_train_lmdb"
+    source: "/data/caffe/data/MICCAI19_Data/MICCAI19_train_lmdb"
     batch_size: 128
     backend: LMDB
   }
@@ -30,11 +30,11 @@ layer {
   transform_param {
     mirror: false
     crop_size: 64
-    mean_file: "/data/caffe/data/MICCAI19_Data2/MICCAI19_mean_slice.binaryproto"
+    mean_file: "/data/caffe/data/MICCAI19_Data/MICCAI19_mean_slice.binaryproto"
   }
   data_param {
-    source: "/data/caffe/data/MICCAI19_Data2/MICCAI19_test22_1_lmdb"
-    batch_size: 512
+    source: "/data/caffe/data/MICCAI19_Data/MICCAI19_val_lmdb"
+    batch_size: 64
     backend: LMDB
   }
 }
