@@ -21,3 +21,27 @@ Once the lmdb files are created, the following command will generate the mean fi
 ```
 >> source make_meanfile.sh
 ```
+
+## Citations
+If you find this work useful, please cite one or both of the following papers:
+```
+@inproceedings{hussain2018noninvasive,
+  title={ImHistNet: Learnable Image Histogram Based DNN with Application to Noninvasive Determination of Carcinoma Grades in CT Scans},
+  author={Hussain, Mohammad Arafat and Hamarneh, Ghassan and Garbi, Rafeef},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={1-9},
+  year={2019},
+  organization={Springer}
+}
+```
+
+```
+@inproceedings{hussain2018noninvasive,
+  title={Renal Cell Carcinoma Staging with Learnable Image Histogram-based Deep Neural Network},
+  author={Hussain, Mohammad Arafat and Hamarneh, Ghassan and Garbi, Rafeef},
+  booktitle={International Workshop on Machine Learning in Medical Imaging (MLMI)},
+  pages={1-8},
+  year={2019},
+  organization={Springer}
+}
+```
