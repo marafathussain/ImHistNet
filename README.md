@@ -25,6 +25,17 @@ Once the lmdb files are created, the following command will generate the mean fi
 ## Citations
 If you find this work useful, please cite one or both of the following papers:
 ```
+@article{hussain2021learnable,
+  title={Learnable Image Histograms-based Deep Radiomics for Renal Cell Carcinoma Grading and Staging},
+  author={Hussain, Mohammad Arafat and Hamarneh, Ghassan and Garbi, Rafeef},
+  journal={Computerized Medical Imaging and Graphics},
+  pages={101924},
+  year={2021},
+  publisher={Elsevier}
+}
+```
+
+```
 @inproceedings{hussain2019imhistnet,
   title={ImHistNet: Learnable Image Histogram Based DNN with Application to Noninvasive Determination of Carcinoma Grades in CT Scans},
   author={Hussain, Mohammad Arafat and Hamarneh, Ghassan and Garbi, Rafeef},
